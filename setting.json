@@ -1,0 +1,45 @@
+// aita amar project code version setting json without auto formate
+
+{
+    // "window.menuBarVisibility": "toggle",
+    "editor.fontSize": 20,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.fontFamily": "'Cascadia Code','Maple Mono', 'monospace', monospace",
+    "extensions.autoUpdate": false,
+    // "workbench.statusBar.visible": false,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.explorerKind": "both",
+    "terminal.sourceControlRepositoriesKind": "both",
+    "telemetry.telemetryLevel": "off",
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.cursorBlinking": "expand",
+    "editor.stickyScroll.enabled": false,
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.fontLigatures": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "prettier.quoteProps": "preserve",
+    "prettier.useEditorConfig": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "prettier.requireConfig": false,
+    "prettier.singleQuote": false,
+    "prettier.jsxSingleQuote": false,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"  // eta existing setting ke override korbe
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+  }
+  
